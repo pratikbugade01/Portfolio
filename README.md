@@ -5,7 +5,7 @@ A modern, responsive personal portfolio website built with React, TypeScript, an
 
 ## Live Demo
 
-[pratikbugade01.github.io/Portfolio](https://pratikbugade01.github.io/Portfolio) <!-- update with your actual deployed URL -->
+[pratik-bugade.netlify.app](https://pratik-bugade.netlify.app/)
 
 ## Sections
 
