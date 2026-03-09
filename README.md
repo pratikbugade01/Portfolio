@@ -1,33 +1,121 @@
 
-  # AI Engineer Portfolio Website (Community)
+# Pratik Bugade — Portfolio
 
-  This is a code bundle for AI Engineer Portfolio Website (Community). The original project is available at https://www.figma.com/design/UVwehjCHdZW2iy53sd1cAz/AI-Engineer-Portfolio-Website--Community-.
+A modern, responsive personal portfolio website built with React, TypeScript, and Vite. Features an animated neural network background, smooth motion animations, and sections showcasing my work as an AI & ML Engineering Student.
 
-  ## Running the code
+## Live Demo
 
-  Run `npm i` to install the dependencies.
+[pratikbugade01.github.io/Portfolio](https://pratikbugade01.github.io/Portfolio) <!-- update with your actual deployed URL -->
 
-  Run `npm run dev` to start the development server.
+## Sections
 
-  Run `npm run build` to create a production build.
+- **Hero** — Introduction with animated name and role
+- **About** — Background and personal summary
+- **My Journey** — Timeline of education and milestones
+- **Projects** — Highlighted personal and academic projects
+- **Experience** — Work and internship experience
+- **Tech Stack** — Technologies and tools I work with
+- **Achievements** — Certifications, awards, and recognitions
+- **Contact** — Get in touch form
 
-  Run `npm run preview` to preview the production build locally.
+## Tech Stack
 
-  ## Deploying to Netlify
+- **Framework:** React 18 + TypeScript
+- **Bundler:** Vite
+- **Animations:** Motion (Framer Motion)
+- **UI Components:** Radix UI primitives + shadcn/ui
+- **Styling:** Tailwind CSS
+- **Icons:** Lucide React
+- **Deployment:** Netlify
 
-  This project is configured for Netlify deployment:
+## Getting Started
 
-  1. Push your code to a Git repository (GitHub, GitLab, or Bitbucket)
-  2. Log in to [Netlify](https://app.netlify.com/)
-  3. Click "Add new site" > "Import an existing project"
-  4. Connect your Git provider and select your repository
-  5. Netlify will automatically detect the build settings from `netlify.toml`
-  6. Click "Deploy site"
+### Prerequisites
 
-  ### Manual Deployment
+- Node.js (v18 or higher recommended)
+- npm
 
-  Alternatively, you can deploy manually:
+### Installation
 
-  1. Run `npm run build` to create a production build
-  2. Drag and drop the `build` folder to Netlify's deployment page
-  
+```bash
+git clone https://github.com/pratikbugade01/Portfolio.git
+cd Portfolio
+npm install
+```
+
+### Development
+
+```bash
+npm run dev
+```
+
+Opens the app at `http://localhost:5173`.
+
+### Production Build
+
+```bash
+npm run build
+```
+
+Output is placed in the `build/` directory.
+
+### Preview Build Locally
+
+```bash
+npm run preview
+```
+
+## Deployment
+
+### Netlify (Recommended)
+
+This project is pre-configured for Netlify via `netlify.toml`.
+
+1. Push your code to GitHub
+2. Log in to [Netlify](https://app.netlify.com/)
+3. Click **Add new site** → **Import an existing project**
+4. Connect GitHub and select this repository
+5. Netlify auto-detects the build settings — click **Deploy site**
+
+### Manual Netlify Deploy
+
+```bash
+npm run build
+```
+
+Then drag and drop the `build/` folder onto Netlify's deploy page.
+
+## Project Structure
+
+```
+Portfolio/
+├── src/
+│   ├── components/       # Page sections and UI components
+│   │   ├── Hero.tsx
+│   │   ├── About.tsx
+│   │   ├── MyJourney.tsx
+│   │   ├── Projects.tsx
+│   │   ├── Experience.tsx
+│   │   ├── TechStack.tsx
+│   │   ├── Achievements.tsx
+│   │   ├── Contact.tsx
+│   │   ├── Navbar.tsx
+│   │   ├── NeuralBackground.tsx
+│   │   └── ui/           # Reusable shadcn/ui components
+│   ├── assets/           # Images and static files
+│   ├── styles/           # Global CSS
+│   ├── App.tsx
+│   └── main.tsx
+├── public/
+├── index.html
+├── vite.config.ts
+├── netlify.toml
+└── package.json
+```
+
+## Contact
+
+**Pratik Bugade**
+- GitHub: [@pratikbugade01](https://github.com/pratikbugade01)
+- LinkedIn: [linkedin.com/in/pratikbugade](https://linkedin.com/in/pratikbugade)
+
